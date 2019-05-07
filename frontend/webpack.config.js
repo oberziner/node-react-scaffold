@@ -25,6 +25,7 @@ module.exports = {
       filename: "./index.html"
     })
   ],
+  devtool: 'source-map',
   devServer: {
     proxy: {
       '/api': 'http://localhost:5000'
