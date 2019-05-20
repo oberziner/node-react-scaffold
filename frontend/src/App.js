@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import client from './rest-client.js';
+import './main.css';
 
 class App extends Component {
 
@@ -21,7 +22,7 @@ class App extends Component {
 
   render() {
     return (
-      <h2>Welcome to React - {this.state.message}</h2>
+      <h2 className="title">Welcome to React - {this.state.message}</h2>
     );
   }
 }
